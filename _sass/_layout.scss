@@ -94,7 +94,7 @@
 
 .top-banner.logo .inner {
     height: 40px;
-    background: url($logo-url) 30px 50% no-repeat;
+    background: url($univ-logo-url) 30px 50% no-repeat;
     // background: url("../assets/img/ucsf-logo-banner.png") 30px 50% no-repeat;
     padding-left: 97px;
 }
@@ -105,7 +105,7 @@
   */
 :root .top-banner.logo .inner {
     // background: url("../assets/img/ucsf-logo-banner.svg") 30px 50% no-repeat;
-    background: url($logo-url) 30px 50% no-repeat;
+    background: url($univ-logo-url) 30px 50% no-repeat;
     background-size: 45px 22px;
 }
 
@@ -240,7 +240,7 @@
     }
 
     .top-banner.logo .inner {
-        background: url($logo-url) 30px 50% no-repeat;
+        background: url($univ-logo-url) 30px 50% no-repeat;
         padding-left: 87px;
     }
 
