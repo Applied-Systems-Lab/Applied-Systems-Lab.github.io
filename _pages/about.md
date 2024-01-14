@@ -1,19 +1,22 @@
 ---
 layout: about
 permalink: /
-title: Decision Lab @ UCSF
-description: neuroethics + decision neuroscience
+title: Applied Systems Lab @ UTD
+description: 
 
 profile: 
   align: right
-  image: about_weill_pic.jpg
-  address: > 
-    <p>Weill Neurosciences Building</p>
+#   image: about_weill_pic.jpg
+#   address: > 
+#     <p>Weill Neurosciences Building</p>
 
 news: false
 social: false
 ---
-The Decision Lab is led by [Winston Chiong, MD PhD]({{ '/team/index.html#Winston-Chiong' | prepend: site.baseurl | prepend: site.url }}), and is part of the [Memory and Aging Center](http://memory.ucsf.edu){:target="\_blank"} in the [UCSF Weill Institute for Neurosciences](http://weill.ucsf.edu){:target="\_blank"}. Our interdisciplinary research is informed by clinical neurology, cognitive neuroscience, the social sciences, philosophy and law, with two main themes:
+The Applied Systems Lab at UT Dallas is led by [Dr. Justin Ruths]({{ '/team/index.html#Justin-Ruths' | prepend: site.baseurl | prepend: site.ur }}) as a part of the [Mechanical Engineering Department](https://me.utdallas.edu) in the [Jonnsson School of Engineering and Computer Science](https://ecs.utdallas.edu).
+
+
+<!-- The Decision Lab is led by [Winston Chiong, MD PhD]({{ '/team/index.html#Winston-Chiong' | prepend: site.baseurl | prepend: site.url }}), and is part of the [Memory and Aging Center](http://memory.ucsf.edu){:target="\_blank"} in the [UCSF Weill Institute for Neurosciences](http://weill.ucsf.edu){:target="\_blank"}. Our interdisciplinary research is informed by clinical neurology, cognitive neuroscience, the social sciences, philosophy and law, with two main themes: -->
 
 1. **Decision Neuroscience in Aging and Disorders of Aging**
 
