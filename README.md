@@ -1,3 +1,9 @@
+# Applied-Systems-Lab Website
+
+Based on the Decisions Lab website: 
+[decisionlabucsf.github.io](https://github.com/decisionlabucsf/decisionlabucsf.github.io) 
+
+
 # Decision Lab website
 
 A quick way for everyone to learn how to use GitHub and Markdown. (Site design 
