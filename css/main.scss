@@ -25,6 +25,7 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 $univ-logo-url: "https://websvcs.utdallas.edu/templates/engineering/syse/images/utdallas-logo.png";
+$lab-logo-url: "{{ 'logo_random.jpg' | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}";
 
 
 

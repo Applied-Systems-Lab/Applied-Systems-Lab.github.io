@@ -1,6 +1,6 @@
 - name: Justin Ruths
-  degrees: MD PhD
-  image: team_Justin-Ruths.png
+  degrees: PhD
+  image: team_Justin-Ruths.jpg
   altimage: 
   position: Principle Investigator
   email: jruths@utdallas.edu
@@ -9,7 +9,31 @@
   github: https://github.com/jruths
   scholar: bTStxAMAAAAJ
   orcid: 
-  description: Justin Ruths is an associate professor in the departments of Mechanical Engineering and Systems Engineering at UT Dallas. 
+  description:  Justin Ruths is an associate professor in the departments of Mechanical Engineering and Systems Engineering at UT Dallas. 
+                TODO- do the rest of this
+
+
+- name: Jonas Wagner
+  degrees: BS MS
+  image: team_Jonas-Wagner.png
+  altimag:
+  position: Research Assistant
+  email: jonas.wagner@utdallas.edu
+  twitter: 
+  website: 
+  github: https://githubcom/jonaswagner2826
+  scholar: JGZZulsAAAAJ
+  orcid: 
+  description:  Jonas Wagner is currently a Research Assistant in the Applied Systems Lab while pursuing a PhD in Mechanical Engineering at The University of Texas at Dallas.
+                Jonas received their B.S. with a double major in Engineering Physics and Electrical Engineering from the University of Wisconsin Platteville.
+                TODO- finish this
+
+
+
+
+
+
+
 
 
 # - name: Winston Chiong
