@@ -35,23 +35,23 @@ enable_anchorjs:    false
 enable_katex:       true
 
 
-# -----------------------------------------------------------------------------
-# Collections
-# -----------------------------------------------------------------------------
-collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /updates/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
-  pastsem:
-    output: true
-    permalink: /pastsem/:path/
+# # -----------------------------------------------------------------------------
+# # Collections
+# # -----------------------------------------------------------------------------
+# collections:
+#   news:
+#     defaults:
+#       layout: post
+#     output: true
+#     permalink: /updates/:path/
+#   projects:
+#     output: true
+#     permalink: /projects/:path/
+#   pastsem:
+#     output: true
+#     permalink: /pastsem/:path/
 
-news_limit: 5
+# news_limit: 5
 
 
 # Build settings
