@@ -1,0 +1,11 @@
+_site/
+Thumbs.db
+.Rproj.user
+.bundle/
+vendor/
+
+# some folders not including for testing
+ncaa/
+handbook/
+css/
+bin/
