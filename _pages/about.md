@@ -13,13 +13,14 @@ profile:
 news: false
 social: false
 ---
-The Applied Systems Lab at UT Dallas is led by [Dr. Justin Ruths]({{ '/team/index.html#Justin-Ruths' | prepend: site.baseurl | prepend: site.ur }}) as a part of the [Mechanical Engineering Department](https://me.utdallas.edu) in the [Jonnsson School of Engineering and Computer Science](https://ecs.utdallas.edu).
+The Applied Systems Lab at UT Dallas is led by [Dr. Justin Ruths]({{ '/team/index.html#Justin-Ruths' | prepend: site.baseurl | prepend: site.ur }}) as a part of the [Mechanical Engineering Department](https://me.utdallas.edu) in the [Erik Jonsson School of Engineering and Computer Science](https://ecs.utdallas.edu).
 
 
 1. **Security of Cyber-Physical Systems**
+
 To a large degree, control engineering is a “hidden” technology, in the sense that it permits the efficient operation of everything from the hard-disks in our computers, to cruise-control in our cars, to regulation in refineries and power plants.  Many of these applications are in some of our most critical infrastructures – e.g., power, water, transportation.  Control theory has a long history of designing systems to be able to operate in the presence of undesirable noise and model uncertainty. Security of control systems, however, presents all new challenges to the control community.  Assumptions that have been made – for example for the Kalman Filter – are no longer valid as soon as perturbations to the system may have been caused by an adversarial attacker rather than random failure. The systematic and persistent nature of attacks identifies key vulnerabilities of control systems.  Our work uses the coupling of the physical layer to detect attacks by quantifying the analytic relationships between detection method parameters (e.g., thresholds), the largest undetected deviation of the state possible, and the expected rate of false alarms.
 
-2. **Inference and Control of Networks**
+1. **Inference and Control of Networks**
 
 Networks have become a popular and effective way of modeling the structure and function of a large variety of complex systems – from the infrastructure for telecommunication systems, to interconnections between neurons, to interactions via social media. 
 Very little work has been done on understanding the properties of these systems from a control theoretic point-of-view. 

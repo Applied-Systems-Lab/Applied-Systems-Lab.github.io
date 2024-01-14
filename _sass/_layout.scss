@@ -23,7 +23,7 @@
     color: $text-color;
 
     &:hover {
-        color: $orange-color;
+        color: $theme-color;
         // color: #007cbe;
         text-decoration: none;
     }
@@ -44,7 +44,7 @@
 }
 
 .top-banner {
-    background: $orange-color; // #052049;
+    background: $theme-color; // #052049;
     height: 32px;
     font-size: 14px;
     text-align: center;
@@ -91,7 +91,7 @@
 
 .top-banner a:hover {
     text-decoration: none;
-    color: #052049;
+    color: $theme-color;// #052049;
 }
 
 .top-banner.logo .inner {
@@ -108,7 +108,7 @@
   */
 :root .top-banner.logo .inner {
     // background: url("../assets/img/ucsf-logo-banner.svg") 30px 50% no-repeat;
-    background: url($univ-logo-url) 30px 50% no-repeat;
+    background: url($univ-logo-url) 30px 75% no-repeat;
     background-size: 45px 22px;
 }
 
@@ -122,6 +122,10 @@
 
 .top-banner.light-blue {
     background: #007cbe
+}
+
+.top-banner.theme {
+    background: $theme-color;
 }
 
 /**
@@ -166,7 +170,7 @@
     float: right;
     padding-right: 13px ;
     text-align: right;
-    background: #007cbe;
+    background: $theme-color;// #007cbe;
 }
 
 .bottom-banner ul, .bottom-banner li {
@@ -193,6 +197,10 @@
 
 .bottom-banner.light-blue {
     background: #007cbe
+}
+
+.bottom-banner.theme {
+    background: $theme-color;
 }
 
 
