@@ -26,7 +26,8 @@ $theme-color:     #d37013; // standard orange
 $on-palm:          600px;
 $on-laptop:        800px;
 
-$univ-logo-url: "https://websvcs.utdallas.edu/templates/engineering/syse/images/utdallas-logo.png";
+$univ-logo-url: "{{ 'logo_ecs_White.png' | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}";
+// $univ-logo-url: "https://websvcs.utdallas.edu/templates/engineering/syse/images/utdallas-logo.png";
 // $lab-logo-url: "{{ 'logo_random.jpg' | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}";
 // $lab-logo-ico: "{{ '/assets/img/logo_random.ico' | prepend: site.baseurl | prepend: site.url }}";
 
