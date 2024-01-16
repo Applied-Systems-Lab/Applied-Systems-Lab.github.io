@@ -9,7 +9,12 @@ description:
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 <div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
-    <img style="float: right; width: 42%; padding-left: 20px;" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
+        <!-- Added an if statement here to allow for image_url update -->
+        {% if person.website %}
+          <img style="float: right; width: 42%; padding-left: 20px;" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
+        {% elseif person.imageurl %}
+          <img style="float: right; width: 42%; padding-left: 20px;" src="person.imageurl" alt="photo of {{person.name}}">
+        {% endif %}
     <div>
         <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4> 
         {{person.position}} <br>
