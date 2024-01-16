@@ -6,6 +6,8 @@ layout: page
   <div style="float: right; width: 35%; padding-left: 30px;">
     {% if page.profile.image %}
       <img style="width: 100%; padding-bottom: 5px;" src="{{ page.profile.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo: {{ page.profile.address }}">
+    {% elseif page.profile.imageurl %}
+      <img style="width: 100%; padding-bottom: 5px;" src="page.profile.imageurl" alt="photo: {{ page.profile.address }}">
     {% endif %}
     {% if page.profile.address %}
       <div class="address">
