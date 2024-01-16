@@ -57,8 +57,7 @@ values. For example:
     
 ## How to update (or add) a team profile
 Two steps:
-### 1. If you don't have one yet, add a picture to /assets/img/ 
-### (or you can use an image URL directly in the .yml file)
+### 1. If you don't have one yet, add a picture to /assets/img/ (or you can use an image URL directly in the .yml file with imageurl:)
 A good size for team member pictures on this site is 311 pixels wide, in jpeg or 
 png format. Name your picture file something descriptive that won't be mistaken 
 for any other image on the site (like `team_your-name.jpg` -- underscores to 
@@ -78,8 +77,6 @@ Navigate to [/_data/members.yml](https://github.com/decisionlabucsf/decisionlabu
 and click the pencil for "Edit this file":
 
 ![Screenshot-edit-members](assets/img/site_readme-01-edit-data-members.png)
-
-#### The image: is if you uploaded an image and imageurl: is if you do the url directly
 
 If you already have a profile, you'll see fields for your name, degrees, 
 position, e-mail address and so forth. E.g.:
