@@ -13,7 +13,7 @@ description:
         {% if person.image %}
           <img style="float: right; width: 42%; padding-left: 20px;" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
         {% elsif person.imageurl %}
-          <img style="float: right; width: 42%; padding-left: 20px;" src="{{person.imageurl}}" alt="photo of {{person.name}}">
+          <img style="float: right; width: 42%; padding-left: 20px;" src="{{ person.imageurl }}" alt="photo of {{person.name}}">
         {% endif %}
     <div>
         <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4> 
