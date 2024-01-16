@@ -15,8 +15,9 @@
 
 - name: Jonas Wagner
   degrees:
-  image: team_Jonas-Wagner.png
-  altimag:
+  # image: team_Jonas-Wagner.png
+  address: https://avatars.githubusercontent.com/u/47377464
+  Altima:
   position: Research Assistant
   email: jonas.wagner@utdallas.edu
   twitter: 
