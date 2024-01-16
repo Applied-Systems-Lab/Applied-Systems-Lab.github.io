@@ -1,12 +1,12 @@
 - name: Justin Ruths
   degrees: PhD
-  image: team_Justin-Ruths.jpg
+  image: https://nova-utd.github.io/assets/res/headshots/Justin.jpg # team_Justin-Ruths.jpg
   altimage: 
   position: Principle Investigator
   email: jruths@utdallas.edu
   twitter: 
   website: https://justinruths.com/
-  github: https://github.com/jruths
+  github: jruths
   scholar: bTStxAMAAAAJ
   orcid: 
   description:  Justin Ruths is an associate professor in the departments of Mechanical Engineering and Systems Engineering at UT Dallas. 
@@ -21,7 +21,7 @@
   email: jonas.wagner@utdallas.edu
   twitter: 
   website: 
-  github: https://githubcom/jonaswagner2826
+  github: jonaswagner2826
   scholar: JGZZulsAAAAJ
   orcid: 
   description:  Jonas Wagner is currently a Research Assistant in the Applied Systems Lab while pursuing a PhD in Mechanical Engineering at The University of Texas at Dallas.
