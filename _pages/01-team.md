@@ -12,7 +12,7 @@ description:
         <!-- Added an if statement here to allow for image_url update -->
         {% if person.website %}
           <img style="float: right; width: 42%; padding-left: 20px;" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
-        {% elseif person.imageurl %}
+        {% elsif person.imageurl %}
           <img style="float: right; width: 42%; padding-left: 20px;" src="person.imageurl" alt="photo of {{person.name}}">
         {% endif %}
     <div>
