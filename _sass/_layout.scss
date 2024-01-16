@@ -67,7 +67,7 @@
 }
 
 .top-banner.logo,.top-banner.logo .inner,.top-banner.logo div.inner div {
-    height: 30 px;
+    height: 55 px;
     // height: 100px;
 }
 
@@ -98,7 +98,7 @@
     // height: 40px;
     // height: 55px;
     height: 55px;
-    background: url($univ-logo-url) 30px 50% no-repeat;
+    background: url($univ-logo-url) 50px 50% no-repeat;
     // background: url("../assets/img/ucsf-logo-banner.png") 30px 50% no-repeat;
     padding-left: 97px;
 }
@@ -109,7 +109,7 @@
   */
 :root .top-banner.logo .inner {
     // background: url("../assets/img/ucsf-logo-banner.svg") 30px 50% no-repeat;
-    background: url($univ-logo-url) 30px 50% no-repeat;
+    background: url($univ-logo-url) 50px 50% no-repeat;
     background-size: 45px 22px;
 }
 
