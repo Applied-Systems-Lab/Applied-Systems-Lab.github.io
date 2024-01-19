@@ -5,7 +5,7 @@ title: team
 description: 
 ---
 
-{% assign members = site.members | sort: 'startdate' %}
+{% assign members = site.members | sort: 'startdate' | reversed %}
 
 {% for person in members %}
 
