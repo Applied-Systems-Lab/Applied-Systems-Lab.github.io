@@ -41,7 +41,7 @@ enable_katex:       true
 collections:
   members:
     output: true
-    permalink: /_data/_members/:path/
+    relative_directory: /_data/
   networks:
     output: true
     permalink: /research/networks/:path/
