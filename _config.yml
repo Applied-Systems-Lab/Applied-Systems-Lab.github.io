@@ -42,7 +42,7 @@ collections:
   members:
     output: true
     sort_by: 'startdate'
-    reverse: true
+    reverse: false
   alumni:
     output: true
     sort_by: 'enddate'
