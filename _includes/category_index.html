@@ -7,11 +7,21 @@
 
   {% for post in paginator.posts %}
 
-  <div class="teaser clearfix">
-    <div class="title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></div>
-    <div class="meta"><span class="timeago">{{ post.date | time_ago }}</span>{{ post.tags | tag_links }}</div>
-    <div class="description">{{ post.description }}</div>
-  </div>
+    <table>
+      {% assign news = site.news | reverse %}
+      {% for item in news limit: site.news_limit %}
+        <tr>
+          <td class="date">{{ item.date | date: "%b %-d, %Y" }}</td>
+          <td class="announcement">
+            {% if item.inline %}
+              {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+            {% else %}
+              <a class="news-title" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+            {% endif %}
+          </td>
+        </tr>
+      {% endfor %}
+    </table>
 
   {% endfor %}
 
