@@ -42,9 +42,10 @@ collections:
   members:
     output: true
     sortby: 'startdate'
+    reverse: true
   alumni:
     output: true
-    sorty: enddate
+    sortby: 'enddate'
   networks:
     output: true
     permalink: /research/networks/:path/
