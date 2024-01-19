@@ -39,6 +39,8 @@ enable_katex:       true
 # Collections
 # -----------------------------------------------------------------------------
 collections:
+  members:
+    output: true
   networks:
     output: true
     permalink: /research/networks/:path/
