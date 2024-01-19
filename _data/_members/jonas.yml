@@ -1,0 +1,30 @@
+---
+name: Jonas Wagner #Include "Ph.D."" if applicable
+degrees: 
+# image: /static/img/members/LastName.jpg #365 x 365 pixels, 72 dpi
+imageurl:  https://avatars.githubusercontent.com/u/47377464
+# altimage: /static/img/members/LastName_pb.jpg #365 x 365 pixels, 72 dpi
+position: Research Assistant
+email: jonas.wagner@utdallas.edu #Enter your preferred public e-mail address
+orcid: #XXXX-XXXX-XXXX-XXXX #ORCID, create if you don't have one
+scholar: JGZZulsAAAAJ #Google Scholar User ID, create if you don't have one
+description: "
+Jonas Wagner is currently a Research Assistant in the Applied Systems Lab while pursuing a PhD in Mechanical Engineering at The University of Texas at Dallas.
+Jonas received their B.S. with a double major in Engineering Physics and Electrical Engineering from the University of Wisconsin Platteville.
+TODO- finish this
+1-2 sentences about your prior education and research experience(s).
+
+
+1-2 sentences about your research project in the Fraser lab.
+
+
+1-2 sentences about your life outside lab (hobbies, pets, etc.)
+"
+
+#OPTIONAL
+pronouns: they/them
+website: #Enter your personal/professional website
+twitter: #username
+linkedin: #username
+github: jonaswagner2826
+---
