@@ -41,7 +41,7 @@ description:
 <hr>
 {% endfor %}
 
-{% if site.data.students %}
+<!-- {% if site.data.students %}
   <h2>students</h2>
   {% for person in site.data.students %}
 <div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
@@ -70,9 +70,9 @@ description:
 </div>
 <hr>
   {% endfor %}
-{% endif %}
+{% endif %} -->
 
-{% if site.data.affiliates %}
+<!-- {% if site.data.affiliates %}
   <h2>affiliate members</h2>
   {% for person in site.data.affiliates %}
 <div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
@@ -101,12 +101,12 @@ description:
 </div>
 <hr>
   {% endfor %}
-{% endif %}
+{% endif %} -->
 
 ---
 
 ## alumni
-{% for alum in site.data.alumni %}
+{% for alum in site.alumni %}
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 <div id = "{{alum.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px; padding-bottom: 20px;">
@@ -124,7 +124,7 @@ description:
 
 ---
 
-## collaborators
+<!-- ## collaborators
 
 {% for collaborator in site.data.collaborators %}
 <div id = "{{ collaborator.name | replace: ' ', '-' | remove: '.' }}" class="row" style="padding-top: 60px; margin-top: -60px; padding-bottom: 20px;">
@@ -132,4 +132,4 @@ description:
   {{collaborator.position}}<br>
   {% if collaborator.website %} <i class="fa fa-globe"></i> <a href= "{{collaborator.website}}" target="_blank">{{collaborator.website}}</a>  {% endif %}
 </div>
-{% endfor %}
+{% endfor %} -->
