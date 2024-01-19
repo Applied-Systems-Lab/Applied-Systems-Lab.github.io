@@ -36,20 +36,26 @@ enable_katex:       true
 
 
 # # -----------------------------------------------------------------------------
-# # Collections
-# # -----------------------------------------------------------------------------
-# collections:
-#   news:
-#     defaults:
-#       layout: post
-#     output: true
-#     permalink: /updates/:path/
-#   projects:
-#     output: true
-#     permalink: /projects/:path/
-#   pastsem:
-#     output: true
-#     permalink: /pastsem/:path/
+# Collections
+# -----------------------------------------------------------------------------
+collections:
+  networks:
+    output: true
+    permalink: /research/networks/:path/
+  security:
+    output: true
+    permalink: /research/security/:path/
+  # news:
+  #   defaults:
+  #     layout: post
+  #   output: true
+  #   permalink: /updates/:path/
+  # projects:
+  #   output: true
+  #   permalink: /projects/:path/
+  # pastsem:
+  #   output: true
+  #   permalink: /pastsem/:path/
 
 # news_limit: 5
 
