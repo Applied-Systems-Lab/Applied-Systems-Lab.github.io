@@ -41,7 +41,7 @@ enable_katex:       true
 collections:
   members:
     output: true
-    sort_by: 'startdate'
+    sort_by: startdate
     reverse: false
   alumni:
     output: true
