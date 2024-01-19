@@ -41,6 +41,8 @@ enable_katex:       true
 collections:
   members:
     output: true
+  alumni:
+    output: true
   networks:
     output: true
     permalink: /research/networks/:path/
