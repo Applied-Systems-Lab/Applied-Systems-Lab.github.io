@@ -1,9 +1,11 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
+title: research
+permalink: /research/
 description: 
 ---
+
+TODO: create this as a link to the different research topics
 
 <div id="gbd" class="project-container" style="margin-top: 0px">
   <img src="{{ site.baseurl }}/assets/img/projects-example.jpg" 
