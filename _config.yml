@@ -41,8 +41,10 @@ enable_katex:       true
 collections:
   members:
     output: true
+    sortby: startdate
   alumni:
     output: true
+    sorty: enddate
   networks:
     output: true
     permalink: /research/networks/:path/
