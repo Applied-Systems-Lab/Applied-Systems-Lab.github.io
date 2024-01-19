@@ -7,18 +7,21 @@ description:
 
 TODO: create this as a link to the different research topics
 
-<div id="gbd" class="project-container" style="margin-top: 0px">
+
+
+
+
+
+
+<!-- <div id="gbd" class="project-container" style="margin-top: 0px">
   <img src="{{ site.baseurl }}/assets/img/projects-example.jpg" 
     alt="Example project" style="width: 100%;">
   <div class="project-title" style="color: #052049"> Example Project</div>
-</div>
+</div> -->
 
 <!-- The thing above is not 100% needed... just there for making things look pretty -->
 
-TODO: include a bunch of projects
-
-
-
+<!-- TODO: include a bunch of projects -->
 
 <!-- <div id="gbd" class="project-container" style="margin-top: 0px">
   <img src="{{ site.baseurl }}/assets/img/projects-gbd.jpg" alt="Background image for Genes, Brains and Decisions. Photo by Robbin Huang on Unsplash." style="width: 100%;">
