@@ -7,4 +7,4 @@ image:
 caption: 
 ---
 
-Example post using standard markdown
+Example post using standard mark down
