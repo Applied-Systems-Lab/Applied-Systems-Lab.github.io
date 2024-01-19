@@ -6,7 +6,7 @@ description:
 ---
 
 
-{% for person in site.members | sort: 'startdate' %}
+{% for person in site.members %}
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 <div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
