@@ -1,7 +1,7 @@
 ---
 layout: page
 title: security
-permalink: /research/security/
+permalink: # /research/security/
 description: 
 ---
 
