@@ -41,11 +41,11 @@ enable_katex:       true
 collections:
   members:
     output: true
-    sortby: startdate
+    sort_by: 'startdate'
     reverse: true
   alumni:
     output: true
-    sortby: 'enddate'
+    sort_by: 'enddate'
   networks:
     output: true
     permalink: /research/networks/:path/
