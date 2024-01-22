@@ -13,16 +13,12 @@ description:
   <h1 class="post-title">{{ page.title }}</h1>
   <h5 class="post-description">{{ page.description }}</h5>
   
-  <!-- {% include category_index.html %} -->
-
-  {% assign items = site.posts | where: "group", "networks" %}
-
-  {% for item in items %}
+  {% for post in site.posts | where: "group", page.title %}
   <div>
-    {{item.title}}
+    {{post.title}}
   </div>
   <div>
-    {{ item.content }}
+    {{ post.content }}
   </div>
   {% endfor %}
 
