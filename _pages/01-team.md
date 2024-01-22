@@ -5,8 +5,10 @@ title: team
 description: 
 ---
 
+{% assign people = site.members | sort:"startdate" %}
 
-{% for person in site.members %}
+
+{% for person in people %}
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 <div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
