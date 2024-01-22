@@ -11,9 +11,11 @@ description:
   <div style="overflow: hidden;">
   <h1 class="post-title">{{ page.title }}</h1>
   <h5 class="post-description">{{ page.description }}</h5>
+
+  {% include category_index.html %}
   
 
-  {% for post in paginator.posts %}
+  <!-- {% for post in paginator.posts %}
   <hr>
   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   <p class="author">
@@ -33,7 +35,7 @@ description:
   </div>
   {% endif %}
 {% endfor %}
-<hr>
+<hr> -->
 
  <!-- <div>
   {% include pagination.html %}

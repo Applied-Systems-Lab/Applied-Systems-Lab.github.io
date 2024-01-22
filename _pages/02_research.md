@@ -14,16 +14,11 @@ test again
 
 {% for topic in topics %}
 
-## {{ topic.title }}
+## <a class="page-link" href="{{ topic.url | prepend: site.baseurl | prepend: site.url }}">{{ topic.title }}</a>
 
-{{ topic.content }}
-
-test
+{{topic.description}}
 
 {% endfor %}
-
-
-{{page.title}}
 
 
 <!-- <div id="gbd" class="project-container" style="margin-top: 0px">

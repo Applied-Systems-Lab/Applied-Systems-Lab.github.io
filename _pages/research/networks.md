@@ -12,7 +12,7 @@ description:
   <h1 class="post-title">{{ page.title }}</h1>
   <h5 class="post-description">{{ page.description }}</h5>
   
-  <!-- {% include category_index.html %} -->
+  {% include category_index.html %}
 
   
 
