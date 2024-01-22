@@ -11,23 +11,23 @@ last_updated: # leave blank if you don't want to display last updated
 # -----------------------------------------------------------------------------
 # News
 # -----------------------------------------------------------------------------
-blog_name: Applied Systems Lab @ UTD
-blog_description: 
+# blog_name: Applied Systems Lab @ UTD
+# blog_description: 
 
 # Pagination
-paginate: 4
+# paginate: 4
 # permalink: /:path/
 
-text:
-  pagination:
-    newer: 'Newer'
-    older: 'Older'
+# text:
+#   pagination:
+#     newer: 'Newer'
+#     older: 'Older'
 
 
-# Optional features
-show_social_icons:  false
-enable_anchorjs:    false
-enable_katex:       true
+# # Optional features
+# show_social_icons:  false
+# enable_anchorjs:    false
+# enable_katex:       true
 
 
 # # -----------------------------------------------------------------------------
