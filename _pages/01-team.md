@@ -47,6 +47,7 @@ description:
 
 
 {% endif %}
+{% endfor %}
 
 
 
@@ -55,6 +56,8 @@ description:
 
 ## alumni
 
+
+{% for person in people %}
 {% if person.enddate != null}
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
@@ -66,6 +69,7 @@ description:
 </div>
 
 {% endif %}
+{% endfor %}
 
 ---
 
@@ -73,10 +77,6 @@ description:
 
 
 
-
-
-
-{% endfor %}
 
 <!-- {% if site.data.students %}
   <h2>students</h2>
