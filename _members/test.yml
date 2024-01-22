@@ -1,0 +1,27 @@
+---
+name: test
+degrees: 
+# image: team_Justin-Ruths.jpg
+imageurl:
+position: 
+email: 
+orcid: #XXXX-XXXX-XXXX-XXXX #ORCID, create if you don't have one
+scholar: 
+description: "
+
+testing
+
+" 
+
+startdate: 2018-09-01
+enddate: # leave empty if still here
+
+
+#OPTIONAL
+pronouns: 
+website: #Enter your personal/professional website
+twitter: #username
+linkedin: #username
+github: #username
+
+---
