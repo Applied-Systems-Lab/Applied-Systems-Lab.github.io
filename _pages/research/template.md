@@ -13,13 +13,18 @@ description:
   <h1 class="post-title">{{ page.title }}</h1>
   <h5 class="post-description">{{ page.description }}</h5>
   
-  {% for post in site.posts | where: "group", page.title %}
+  {% for post in site.posts %}
+  {% if post.group == page.title %}
+
+  {{post.group}} ?= {{page.title}}
+  
   <div>
     {{post.title}}
   </div>
   <div>
     {{ post.content }}
   </div>
+  {% endif %}
   {% endfor %}
 
   </div>
