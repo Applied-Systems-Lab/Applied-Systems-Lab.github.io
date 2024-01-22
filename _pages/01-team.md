@@ -5,9 +5,11 @@ title: team
 description: 
 ---
 
-{% assign members = site.members | sort:"startdate" %}
+{% assign members = site.members | sort:"startdate" | where_exp: "item", "item.enddate == null" %}
+{% assign alumni = site.members | sort:"enddate" | reverse | where_exp: "item", "item.enddate != null" %}
+
+
 {% for member in members %} 
-{% if member.enddate == null %}
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 <div id = "{{member.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
@@ -44,14 +46,12 @@ description:
     </div>
 </div>
 <hr>
-{% endif %} {% endfor %}
+{% endfor %}
 
 ---
 
 ## alumni
-{% assign alumni = site.members | sort: "enddate" | reverse %}
 {% for alum in alumni %}
-{% if alum.enddate != null %} 
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 <div id = "{{alum.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px; padding-bottom: 20px;">
