@@ -63,7 +63,7 @@
 
         <!-- Pages -->
         {% for page in site.pages %}
-          {% unless page.exclude %}
+          {% unless page.category != null %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a>
           {% endunless %}
         {% endfor %}

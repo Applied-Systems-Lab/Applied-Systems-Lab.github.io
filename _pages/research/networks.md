@@ -1,7 +1,7 @@
 ---
 layout: page
 title: networks
-exclude: true
+category: research
 description: 
 
 ---

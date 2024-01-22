@@ -10,7 +10,7 @@ TODO: create this as a link to the different research topics
 
 
 
-{% assign topic = site.pages | sort: "title" %}
+{% assign topic = site.pages | sort: "title" | where: "category", "research" %}
 
 {% for topic in topics %}
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: security
-exclude: true
+category: research
 description: 
 
 ---
