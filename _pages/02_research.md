@@ -8,17 +8,15 @@ description:
 TODO: create this as a link to the different research topics
 
 
-
-
-{% assign topic = site.pages | sort: "title" | where: "category", "research" %}
+{% assign topic = site.pages | sort: "title" | where_exp: "item", "item.category == research" %}
 
 test again
 
 {% for topic in topics %}
 
-<!-- ## {{ topic.title }}
+## {{ topic.title }}
 
-{{ topic.content }} -->
+{{ topic.content }}
 
 test
 
