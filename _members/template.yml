@@ -1,27 +1,25 @@
 ---
 name: template
 degrees: 
-# image: team_Justin-Ruths.jpg
-imageurl:
-position: 
-email: 
+# image: # local image name (only use image or imageurl)
+imageurl: # direct imageurl
+position: # current role/position
+email: # email
 orcid: #XXXX-XXXX-XXXX-XXXX #ORCID, create if you don't have one
-scholar: 
+scholar: # find on google scholar
 description: "
 
-template
+Description
 
 " 
 
-startdate: 2022-09-01
-enddate: # leave empty if still here
-
+startdate: [2022-09-01] # [YYYY-MM-DD] date joining lab
+enddate: #[YYYY-MM-DD] Leave this blank until you leave the lab
 
 #OPTIONAL
-pronouns: 
+pronouns: #
 website: #Enter your personal/professional website
 twitter: #username
 linkedin: #username
 github: #username
-
 ---

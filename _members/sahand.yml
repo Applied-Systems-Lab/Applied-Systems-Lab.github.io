@@ -1,18 +1,19 @@
 ---
 name: Sahand 
-degrees: 
+degrees: PhD
 # image:
 imageurl: 
-position: 
+position: # current role/position 
 email: 
 orcid:
 scholar: 
 description: "
 
+TODO: add description/bio
 
 "
-startdate: 2018-01-01
-enddate: 2023-01-01
+startdate: [2018-01-01]
+enddate: [2023-01-01]
 
 #OPTIONAL
 pronouns:
@@ -20,3 +21,5 @@ website: #Enter your personal/professional website
 twitter: #username
 linkedin: #username
 github: #username
+
+---

@@ -5,149 +5,61 @@ title: team
 description: 
 ---
 
-{% assign people = site.members | sort:"startdate" %}
-
-{% for person in people %}
-
-{% if person.enddate == null %} 
+{% for member in site.members | sort:"startdate" %} {% if member.enddate == null %} <!-- exclude alumni/previous -->
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
-<div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
+<div id = "{{member.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
         <!-- Added an if statement here to allow for image_url update -->
-        {% if person.image %}
-          <img style="float: right; width: 25%; padding-left: 20px;" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
-          <!-- <img style="float: right; width: 42%; padding-left: 20px;" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}"> -->
-        {% elsif person.imageurl %}
-          <img style="float: right; width: 25%; padding-left: 20px;" src="{{ person.imageurl }}" alt="photo of {{person.name}}">
+        {% if member.image %}
+          <img style="float: right; width: 25%; padding-left: 20px;" src="{{ member.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{member.name}}">
+          <!-- <img style="float: right; width: 42%; padding-left: 20px;" src="{{ member.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{member.name}}"> -->
+        {% elsif member.imageurl %}
+          <img style="float: right; width: 25%; padding-left: 20px;" src="{{ member.imageurl }}" alt="photo of {{member.name}}">
         {% endif %}
     <div>
-        <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4> 
-        {{person.position}} <br>
-        <i class="fa fa-envelope"></i> <em>{{person.email}}</em> <br>
-        {% if person.website %}
-          <i class="fa fa-globe"></i> <a href= "{{person.website}}" target="_blank">{{person.website}}</a> <br>
+        <h4>{{member.name}}{% if member.degrees %}, {{member.degrees}} {% endif %}</h4> 
+        {% if member.pronouns %}
+          <em>{{member.pronouns}}</em> <br>
         {% endif %}
-        {% if person.github %}
-          <i class="fab fa-github"></i> <a href= "https://github.com/{{person.github}}" target="_blank"> {{person.github}} </a> <br>
+        {{member.position}} <br>
+        <i class="fa fa-envelope"></i> <em>{{member.email}}</em> <br>
+        {% if member.website %}
+          <i class="fa fa-globe"></i> <a href= "{{member.website}}" target="_blank">{{member.website}}</a> <br>
         {% endif %}
-        {% if person.scholar %}
-          <i class="ai ai-google-scholar"></i> <a href= "http://scholar.google.com/citations?user={{person.scholar}}" target="_blank"> Scholar Citations </a> <br>
+        {% if member.github %}
+          <i class="fab fa-github"></i> <a href= "https://github.com/{{member.github}}" target="_blank"> {{member.github}} </a> <br>
         {% endif %}
-        {% if person.orcid %}
-          <i class="ai ai-orcid"></i> <a href="http://{{person.orcid}}" target="_blank"> {{person.orcid}}</a> <br>
+        {% if member.scholar %}
+          <i class="ai ai-google-scholar"></i> <a href= "http://scholar.google.com/citations?user={{member.scholar}}" target="_blank"> Scholar Citations </a> <br>
+        {% endif %}
+        {% if member.orcid %}
+          <i class="ai ai-orcid"></i> <a href="http://{{member.orcid}}" target="_blank"> {{member.orcid}}</a> <br>
         {% endif %}
 
     </div>
     <div class="col-sm-8">
-        <p class="text-justify">{{person.description | markdownify}}</p>
+        <p class="text-justify">{{member.description | markdownify}}</p>
     </div>
 </div>
-<!-- <hr> -->
-
-
-{% endif %}
-{% endfor %}
-
+<hr>
+{% endif %} {% endfor %}
 
 ---
 
 ## alumni
 
-{% for alum in people | sort: "enddate" | reverse %}
-{% if alum.enddate != null %}
+{% for alum in site.members | sort: "enddate" | reverse %}
+{% if alum.enddate != null %} 
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 <div id = "{{alum.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px; padding-bottom: 20px;">
   <strong>{{alum.name}}{% if alum.degrees %}, {{alum.degrees}} {% endif %}</strong> <br>
-  <i>previously:</i> {{alum.previously}} <br>
-  <i>now:</i> {{alum.now}}<br>
-    {% if alum.website %} <i class="fa fa-globe"></i> <a href= "{{alum.website}}" target="_blank">{{alum.website}}</a>  {% endif %}
+  <!-- <i>previously:</i> {{alum.previously}} <br> -->
+  {% if alumn.position %} <i>Current Position:</i> {{alum.position}}<br> {% endif %}
+  {% if alum.website %} <i class="fa fa-globe"></i> <a href= "{{alum.website}}" target="_blank">{{alum.website}}</a>  {% endif %}
 </div>
 
 {% endif %}
 {% endfor %}
 
 ---
-
-
-
-
-
-
-<!-- {% if site.data.students %}
-  <h2>students</h2>
-  {% for person in site.data.students %}
-<div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
-    <img style="float: right; width: 42%; padding-left: 20px;" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
-    <div>
-        <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4> 
-        {{person.position}} <br>
-        <i class="fa fa-envelope"></i> <em>{{person.email}}</em> <br>
-        {% if person.website %}
-          <i class="fa fa-globe"></i> <a href= "{{person.website}}" target="_blank">{{person.website}}</a> <br>
-        {% endif %}
-        {% if person.github %}
-          <i class="fab fa-github"></i> <a href= "https://github.com/{{person.github}}" target="_blank"> {{person.github}} </a> <br>
-        {% endif %}
-        {% if person.scholar %}
-          <i class="ai ai-google-scholar"></i> <a href= "http://scholar.google.com/citations?user={{person.scholar}}" target="_blank"> Scholar Citations </a> <br>
-        {% endif %}
-        {% if person.orcid %}
-          <i class="ai ai-orcid"></i> <a href="http://{{person.orcid}}" target="_blank"> {{person.orcid}}</a> <br>
-        {% endif %}
-
-    </div>
-    <div class="col-sm-8">
-        <p class="text-justify">{{person.description | markdownify}}</p>
-    </div>
-</div>
-<hr>
-  {% endfor %}
-{% endif %} -->
-
-<!-- {% if site.data.affiliates %}
-  <h2>affiliate members</h2>
-  {% for person in site.data.affiliates %}
-<div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
-    <img style="float: right; width: 42%; padding-left: 20px;" src="{{ person.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
-    <div>
-        <h4>{{person.name}}{% if person.degrees %}, {{person.degrees}} {% endif %}</h4> 
-        {{person.position}} <br>
-        <i class="fa fa-envelope"></i> <em>{{person.email}}</em> <br>
-        {% if person.website %}
-          <i class="fa fa-globe"></i> <a href= "{{person.website}}" target="_blank">{{person.website}}</a> <br>
-        {% endif %}
-        {% if person.github %}
-          <i class="fab fa-github"></i> <a href= "https://github.com/{{person.github}}" target="_blank"> {{person.github}} </a> <br>
-        {% endif %}
-        {% if person.scholar %}
-          <i class="ai ai-google-scholar"></i> <a href= "http://scholar.google.com/citations?user={{person.scholar}}" target="_blank"> Scholar Citations </a> <br>
-        {% endif %}
-        {% if person.orcid %}
-          <i class="ai ai-orcid"></i> <a href="http://{{person.orcid}}" target="_blank"> {{person.orcid}}</a> <br>
-        {% endif %}
-
-    </div>
-    <div class="col-sm-8">
-        <p class="text-justify">{{person.description | markdownify}}</p>
-    </div>
-</div>
-<hr>
-  {% endfor %}
-{% endif %} -->
-
-
-
-
-
-
-
-<!-- ## collaborators
-
-{% for collaborator in site.data.collaborators %}
-<div id = "{{ collaborator.name | replace: ' ', '-' | remove: '.' }}" class="row" style="padding-top: 60px; margin-top: -60px; padding-bottom: 20px;">
-<strong>{{collaborator.name}}{% if collaborator.degrees %}, {{collaborator.degrees}} {% endif %}</strong><br>  
-  {{collaborator.position}}<br>
-  {% if collaborator.website %} <i class="fa fa-globe"></i> <a href= "{{collaborator.website}}" target="_blank">{{collaborator.website}}</a>  {% endif %}
-</div>
-{% endfor %} -->

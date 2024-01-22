@@ -3,8 +3,7 @@ name: Jonas Wagner #Include "Ph.D."" if applicable
 degrees: 
 # image: /static/img/members/LastName.jpg #365 x 365 pixels, 72 dpi
 imageurl:  https://avatars.githubusercontent.com/u/47377464
-# altimage: /static/img/members/LastName_pb.jpg #365 x 365 pixels, 72 dpi
-position: Research Assistant
+position: Research Assistant # current position
 email: jonas.wagner@utdallas.edu #Enter your preferred public e-mail address
 orcid: #XXXX-XXXX-XXXX-XXXX #ORCID, create if you don't have one
 scholar: JGZZulsAAAAJ #Google Scholar User ID, create if you don't have one
@@ -14,8 +13,8 @@ Jonas received their B.S. with a double major in Engineering Physics and Electri
 TODO- finish this
 "
 
-startdate: 2020-06-15
-enddate: # leave empty if still here
+startdate: [2020-06-15]
+enddate: #[YYYY-MM-DD] Leave this blank until you leave the lab
 
 #OPTIONAL
 pronouns: they/them

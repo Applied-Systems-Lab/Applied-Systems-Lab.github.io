@@ -4,13 +4,9 @@ name: Applied Systems Lab @ UTD
 email: jrutsh@utdallas.edu
 description: > # this means to ignore newlines until "baseurl:"
   Add Description
-  # Neuroethics + Decision Neuroscience. Research group headed by Winston Chiong, MD PhD in the 
-  # University of California, San Francisco Weill Institute for Neurosciences, Memory and Aging Center.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://Applied-Systems-Lab.github.io
 last_updated: # leave blank if you don't want to display last updated
-#twitter_username: jekyllrb
-#github_username:  jekyll
 
 # -----------------------------------------------------------------------------
 # News
@@ -41,10 +37,6 @@ enable_katex:       true
 collections:
   members:
     output: true
-    # sort_by: "startdate"
-  alumni:
-    output: true
-    # sort_by: 'enddate'
   networks:
     output: true
     permalink: /research/networks/:path/
