@@ -1,7 +1,7 @@
 
 <div class="post">
   
-{% assign items == site.posts | where_exp: "item", "item.group == page.title"}
+{% assign items == site.posts | where_exp: "item", "item.group == page.title" %}
 
   {% for item in items | limit: site.post_limit %}
       {{item.group}} ?= {{page.title}}
