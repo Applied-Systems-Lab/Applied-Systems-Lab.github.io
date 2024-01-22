@@ -5,7 +5,9 @@ title: team
 description: 
 ---
 
-{% for member in site.members | sort:"startdate" %} {% if member.enddate == null %} <!-- exclude alumni/previous -->
+{% assign members = site.members | sort:"startdate" %}
+{% for member in members %} 
+{% if member.enddate == null %}
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 <div id = "{{member.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
@@ -47,8 +49,8 @@ description:
 ---
 
 ## alumni
-
-{% for alum in site.members | sort: "enddate" | reverse %}
+{% assign alumni = site.members | sort: "enddate" | reverse %}
+{% for alum in alumni %}
 {% if alum.enddate != null %} 
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
