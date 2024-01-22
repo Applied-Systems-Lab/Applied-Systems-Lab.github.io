@@ -1,13 +1,15 @@
 
 <div class="post">
   
-  {% for item in site.posts | where_exp: "item", "item.group == page.title" %}
+  {% for item in site.posts %}
+    {% if item.group == page.title %}
+      {{item.group}} ?= {{page.title}}
       <div>
         {{item.title}}
       </div>
-      <!-- <div>
+      <div>
         {{ item.content }}
-      </div> -->
+      </div>
   {% endfor %}
 
 </div>
