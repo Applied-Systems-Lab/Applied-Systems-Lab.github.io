@@ -1,5 +1,5 @@
 
-<div class="post"
+<div class="post">
   
   {% for item in site.posts | where_exp: "item", "item.group == page.title" %}
       <div>
@@ -10,5 +10,4 @@
       </div> -->
   {% endfor %}
 
-  </div>
 </div>
