@@ -53,7 +53,7 @@ description:
 
 ## alumni
 
-{% for alum in people %}
+{% for alum in people | sort: "enddate" | reverse %}
 {% if alum.enddate != null %}
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->

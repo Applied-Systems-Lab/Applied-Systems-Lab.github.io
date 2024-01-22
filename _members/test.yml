@@ -2,7 +2,7 @@
 name: test
 degrees: 
 # image: team_Justin-Ruths.jpg
-imageurl:
+imageurl: 
 position: 
 email: 
 orcid: #XXXX-XXXX-XXXX-XXXX #ORCID, create if you don't have one
@@ -14,7 +14,7 @@ testing
 " 
 
 startdate: 2018-09-01
-enddate: # leave empty if still here
+enddate: 2021-03-01 # leave empty if still here
 
 
 #OPTIONAL
