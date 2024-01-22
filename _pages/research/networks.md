@@ -1,8 +1,8 @@
 ---
 layout: page
 title: networks
-category: research
-description: 
+description:
+This is a description for this page
 
 ---
 

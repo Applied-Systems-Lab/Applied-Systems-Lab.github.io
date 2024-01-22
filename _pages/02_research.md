@@ -8,7 +8,7 @@ description:
 TODO: create this as a link to the different research topics
 
 
-{% assign topics = site.pages | sort: "title" | where: "category", "research"%}
+{% assign topics = site.pages | sort: "title" | where: "path", {{page.title}} %}
 
 test again
 
