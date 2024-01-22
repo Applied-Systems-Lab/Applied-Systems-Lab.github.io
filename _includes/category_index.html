@@ -4,7 +4,7 @@
     testing
   </div>
 
-  {% assign posts = site.posts | where_exp: "post", "post.path == {{ page.title | prepend: page.path }}" %}
+  {% assign posts = site.posts | where: "path", {{ page.title | prepend: page.path }} %}
 <!-- issue with above line... -->
 
   {% for post in posts %}
