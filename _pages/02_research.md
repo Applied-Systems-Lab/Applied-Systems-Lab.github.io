@@ -6,7 +6,7 @@ description:
 ---
 
 
-{% assign topics = site.pages | sort: "title" | where: "category", "{{page.title}}" %}
+{% assign topics = site.pages | sort: "title" | where: "category", page.title %}
 
 {% for topic in topics %}
 
