@@ -4,6 +4,8 @@ category: research
 ---
 
 <div class="post">
+
+    {{ content }}
   
   {% for item in site.posts | where_exp: "item", "item.group == page.title" %}
       <div>
