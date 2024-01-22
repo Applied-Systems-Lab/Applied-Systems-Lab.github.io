@@ -1,8 +1,9 @@
 
 <div class="post">
   
-  {% for item in site.posts %}
-    {% if item.group == page.title %}
+{% assign items == site.posts | where_exp: "item", "item.group == page.title"}
+
+  {% for item in items | limit: site.post_limit %}
       {{item.group}} ?= {{page.title}}
       <div>
         <h3>{{item.title}}</h3>
@@ -10,7 +11,6 @@
       <div> -->
         {{ item.content }}
       </div>
-    {% endif %}
   {% endfor %}
 
 </div>

@@ -42,28 +42,8 @@ collections:
   posts:
     output: true
     permalink: /:path/
-  # research:
-  #   output: true
-    # permalink: /:collection/:path/
-  # networks:
-  #   output: true
-  #   permalink: /research/:collection/:path/
-  # security:
-  #   output: true
-  #   permalink: /research/:collection/:path/
-  # news:
-  #   defaults:
-  #     layout: post
-  #   output: true
-  #   permalink: /updates/:path/
-  # projects:
-  #   output: true
-  #   permalink: /projects/:path/
-  # pastsem:
-  #   output: true
-  #   permalink: /pastsem/:path/
 
-# news_limit: 5
+post_limit: 5
 
 
 # Build settings
