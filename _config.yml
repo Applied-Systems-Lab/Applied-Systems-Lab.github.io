@@ -36,8 +36,10 @@ enable_katex:       true
 collections:
   members:
     output: true
-  research:
+  posts:
     output: true
+  # research:
+  #   output: true
     # permalink: /:collection/:path/
   # networks:
   #   output: true
