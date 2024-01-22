@@ -16,6 +16,7 @@ description:
   {% for item in site.posts %}
     {% if item.group == page.title %}
       {{item.group}} ?= {{page.title}}
+      {{item.path}} ?= {{page.title | prepend: page.path }}
       <div>
         {{item.title}}
       </div>
