@@ -10,13 +10,13 @@ TODO: create this as a link to the different research topics
 
 
 
-{% assign topic = site.pages.research | sort: "title" %}
+{% assign topic = site.pages | sort: "title" %}
 
 {% for topic in topics %}
 
-## {{topic.title}}
+## {{ topic.title }}
 
-{{topic.content}}
+{{ topic.content }}
 
 test
 
