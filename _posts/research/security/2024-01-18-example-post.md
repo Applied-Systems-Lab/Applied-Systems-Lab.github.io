@@ -2,7 +2,7 @@
 title: Example post
 author: author
 layout: post
-group: news
+group: security
 image: 
 caption: 
 ---

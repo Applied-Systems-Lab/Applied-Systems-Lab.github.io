@@ -2,7 +2,7 @@
 title: Tobias Haeusermann wins 2018 Mildred Blaxter New Writer Prize
 author: Winston Chiong
 layout: post
-group: news
+group: networks
 image: 
 caption: 
 ---

@@ -4,12 +4,12 @@
     testing
   </div>
 
-  {% assign posts = site.posts | where: "path", {{ page.title | prepend: page.path }} %}
-<!-- issue with above line... -->
+  {% assign posts = site.posts | where_exp: "item", "item.group == {{page.title}}" %}
+
 
   {% for post in posts %}
   <div>
-    testing again
+    {{post.title}}
   </div>
   <div>
     {{ post.content }}
