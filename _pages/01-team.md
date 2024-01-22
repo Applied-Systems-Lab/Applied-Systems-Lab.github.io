@@ -7,7 +7,6 @@ description:
 
 {% assign people = site.members | sort:"startdate" %}
 
-
 {% for person in people %}
 
 {% if person.enddate == null %}
@@ -50,15 +49,12 @@ description:
 {% endfor %}
 
 
-
-
 ---
 
 ## alumni
 
-
-{% for person in people %}
-{% if person.enddate != null}
+{% for alum in people %}
+{% if alum.enddate != null}
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 <div id = "{{alum.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px; padding-bottom: 20px;">
