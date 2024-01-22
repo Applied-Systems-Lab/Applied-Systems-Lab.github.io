@@ -1,6 +1,6 @@
 ---
 layout: page
-title: template
+title: networks
 category: research
 description: 
     This is a description for this page
@@ -13,14 +13,14 @@ description:
   <h1 class="post-title">{{ page.title }}</h1>
   <h5 class="post-description">{{ page.description }}</h5>
   
-  {% for post in site.posts %}
-    {% if post.group == page.title %}
-      {{post.group}} ?= {{page.title}}
+  {% for item in site.posts %}
+    {% if item.group == page.title %}
+      {{item.group}} ?= {{page.title}}
       <div>
-        {{post.title}}
+        {{item.title}}
       </div>
       <div>
-        {{ post.content }}
+        {{ item.content }}
       </div>
     {% endif %}
   {% endfor %}
