@@ -56,10 +56,10 @@
         <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/"><i class="fas fa-home"></i></a>
 
         <!-- Team -->
-        <a class="page-link" href="{{ '/team/' | prepend: site.baseurl | prepend: site.url }}">team</a>
+        <!-- <a class="page-link" href="{{ '/team/' | prepend: site.baseurl | prepend: site.url }}">team</a> -->
 
         <!-- Research -->
-        <a class="page-link" href="{{ '/research/' | prepend: site.baseurl | prepend: site.url }}">research</a>
+        <!-- <a class="page-link" href="{{ '/research/' | prepend: site.baseurl | prepend: site.url }}">research</a> -->
 
 
 
@@ -70,11 +70,11 @@
         <!-- <a class="page-link" href="{{ '/news/' | prepend: site.baseurl | prepend: site.url }}">news</a> -->
 
         <!-- Pages -->
-        <!-- {% for page in site.pages %}
+        {% for page in site.pages %}
           {% if page.title and page.url != "/" %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a>
           {% endif %}
-        {% endfor %} -->
+        {% endfor %}
 
         <!-- Handbook -->
         <!-- <a class="page-link" href="{{ '/handbook/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">handbook</a> -->
