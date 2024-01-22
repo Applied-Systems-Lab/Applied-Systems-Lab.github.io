@@ -8,11 +8,11 @@ description:
 TODO: create this as a link to the different research topics
 
 
-{% assign topic = site.pages | sort: "title" | where_exp: "item", "item.category == research" %}
+{% assign topics = site.pages | sort: "title" | where: "category", "research"%}
 
 test again
 
-{% for topic in site.pages %}
+{% for topic in topics %}
 
 ## {{ topic.title }}
 
@@ -22,9 +22,8 @@ test
 
 {% endfor %}
 
-{{page.category}}
 
-
+{{page.title}}
 
 
 <!-- <div id="gbd" class="project-container" style="margin-top: 0px">
