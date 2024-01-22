@@ -1,13 +1,13 @@
 <div class="category_index">
 
-  {% assign posts = site.posts | where: "group", "{{page.title}}" %}
+  {% assign items = site.posts | where: "group", "{{ page.title }}" %}
 
-  {% for post in posts %}
+  {% for item in items %}
   <div>
-    {{post.title}}
+    {{item.title}}
   </div>
   <div>
-    {{ post.content }}
+    {{ item.content }}
   </div>
   {% endfor %}
 

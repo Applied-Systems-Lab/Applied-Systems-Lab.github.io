@@ -17,7 +17,5 @@ description:
   
   {% include category_index.html %}
 
-  
-
   </div>
 </div>
