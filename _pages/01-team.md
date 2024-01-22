@@ -10,7 +10,7 @@ description:
 
 {% for person in people %}
 
-<!-- {% if person.enddate == null %} -->
+{% if person.enddate == null %}
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 <div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
@@ -46,7 +46,7 @@ description:
 <!-- <hr> -->
 
 
-<!-- {% endif %} -->
+{% endif %}
 
 
 
@@ -63,11 +63,6 @@ description:
   <i>previously:</i> {{alum.previously}} <br>
   <i>now:</i> {{alum.now}}<br>
     {% if alum.website %} <i class="fa fa-globe"></i> <a href= "{{alum.website}}" target="_blank">{{alum.website}}</a>  {% endif %}
-    {% for paper in site.data.publications %}
-  {% if paper.authors contains alum.pubmed_name %}
-  <div style="margin-left: 2.5em; padding-top: 8px; padding-bottom: 5px; ">{{paper.authors | remove: '**'}} <a href="/papers/index.html#{{paper.title | replace: ' ', '-' |  remove: '.'}}">{{paper.title}}</a> {{paper.details}}</div>
-  {% endif %}
-  {% endfor %}
 </div>
 
 {% endif %}
