@@ -7,42 +7,7 @@ description:
 
 ---
 
-<div class="post">
-
-  <div style="overflow: hidden;">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <h5 class="post-description">{{ page.description }}</h5>
-
-  {% include category_index.html %}
-  
-
-  <!-- {% for post in paginator.posts %}
-  <hr>
-  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  <p class="author">
-    <span class="author"><a href="/team/index.html#{{post.author | replace: ' ', '-'}}">{{post.author}}</a></span><br>
-    <span class="date"><em>{{ post.date | date: "%B %e, %Y" }}</em></span>
-  </p>
-  <div class="content">
-    {{ post.content }}
-  </div>
-  {% if post.image %}
-  <div class="sem-image-container">
-    <img style="width: 100%;" src="{{ post.image | prepend: '/assets/img/' | 
-    prepend: site.baseurl | prepend: site.url }}" alt="photo of {{post.title}}">
-    {% if post.caption %}
-    <div class="image-caption">{{ post.caption }}</div>
-    {% endif %}
-  </div>
-  {% endif %}
-{% endfor %}
-<hr> -->
-
- <!-- <div>
-  {% include pagination.html %}
-  </div> -->
-  </div>
-</div>
+{% include category_index.html %}
 
 
 

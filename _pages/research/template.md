@@ -8,16 +8,4 @@ description:
 
 ---
 
-<div class="post"
-  
-  {% for item in site.posts | where_exp: "item", "item.group == page.title" %}
-      <div>
-        {{item.title}}
-      </div>
-      <!-- <div>
-        {{ item.content }}
-      </div> -->
-  {% endfor %}
-
-  </div>
-</div>
+{% include category_index.html %}

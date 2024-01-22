@@ -1,18 +1,14 @@
-<!-- <div class="category_index"> -->
 
-  {% assign items = site.posts %} 
-   <!-- | where_exp: "item", "item.group == page.title" %} -->
-
-  {% for item in items %}
-  {{page.title}} = ?
-  {{item.group}}
-  <div>
-    {{item.title}}
-  </div>
-  <div>
-    {{ item.content }}
-  </div>
+<div class="post"
+  
+  {% for item in site.posts | where_exp: "item", "item.group == page.title" %}
+      <div>
+        {{item.title}}
+      </div>
+      <!-- <div>
+        {{ item.content }}
+      </div> -->
   {% endfor %}
 
-
-<!-- </div> -->
+  </div>
+</div>
