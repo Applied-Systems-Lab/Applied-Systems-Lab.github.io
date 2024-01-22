@@ -1,11 +1,6 @@
 <div class="category_index">
 
-  <div>
-    testing
-  </div>
-
   {% assign posts = site.posts | where: "group", "{{page.title}}" %}
-
 
   {% for post in posts %}
   <div>
