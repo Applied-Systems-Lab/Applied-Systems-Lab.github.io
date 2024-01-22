@@ -5,9 +5,9 @@
     {% if item.group == page.title %}
       {{item.group}} ?= {{page.title}}
       <div>
-        {{item.title}}
-      </div>
-      <div>
+        <h3>{{item.title}}</h3>
+      <!-- </div>
+      <div> -->
         {{ item.content }}
       </div>
     {% endif %}
