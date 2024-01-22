@@ -102,4 +102,4 @@ Office: ECSW 3.355EECSW 3.355E
 ---
 
 This site is open-source and available on [GitHub](https://github.com/Applied-Systems-Lab/Applied-Systems-Lab.github.io){:target="\_blank"}.
-This uses code from the [al-folio](https://github.com/alshedivat/al-folio){:target="\_blank"} theme and based on the [Decision Lab](https://decisionlab.ucsf.edu/){:target="\_blank"} website.
+This uses code from the [al-folio](https://github.com/alshedivat/al-folio){:target="\_blank"} theme and based on both the [Decision Lab](https://decisionlab.ucsf.edu/){:target="\_blank"} and [Fraser Lab](https://fraserlab.com/){:target="\_blank"} websites.
