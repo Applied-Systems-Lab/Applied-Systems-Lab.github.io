@@ -16,7 +16,7 @@ blog_description:
 
 # Pagination
 paginate: 4
-permalink: pretty
+permalink: /:path/
 
 text:
   pagination:
@@ -37,11 +37,11 @@ collections:
   members:
     output: false
   pages:
-    # output: true
-    permalink: /:path/
+    output: true
+    # permalink: /:path/
   posts:
     output: true
-    permalink: /:path/
+    # permalink: /:path/
   # research:
   #   output: true
     # permalink: /:collection/:path/
