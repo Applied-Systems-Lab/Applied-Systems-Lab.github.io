@@ -38,8 +38,12 @@ collections:
     output: true
   posts:
     output: true
-  # pages:
-  #   output: true
+  pages:
+    output: true
+    permalink: /:path/
+  posts:
+    output: true
+    permalink: /:path/
   # research:
   #   output: true
     # permalink: /:collection/:path/
