@@ -16,8 +16,7 @@ blog_description:
 
 # Pagination
 paginate: 4
-permalink: /news/:year/:title/
-paginate_path: "news/page:num"
+permalink: pretty
 
 text:
   pagination:
@@ -37,12 +36,15 @@ enable_katex:       true
 collections:
   members:
     output: true
-  networks:
+  research:
     output: true
-    permalink: /research/networks/:path/
-  security:
-    output: true
-    permalink: /research/security/:path/
+    # permalink: /:collection/:path/
+  # networks:
+  #   output: true
+  #   permalink: /research/:collection/:path/
+  # security:
+  #   output: true
+  #   permalink: /research/:collection/:path/
   # news:
   #   defaults:
   #     layout: post

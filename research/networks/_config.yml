@@ -1,4 +1,0 @@
-# Pagination
-paginate: 4
-permalink: /networks//:title/
-paginate_path: "networks/page:num"
