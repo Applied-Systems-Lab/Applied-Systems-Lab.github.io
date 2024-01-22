@@ -1,8 +1,8 @@
 ---
 layout: page
 title: networks
-description: >
-This is a description for this page
+description:
+  This is a description for this page
 
 ---
 

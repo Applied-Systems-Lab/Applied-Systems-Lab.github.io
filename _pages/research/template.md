@@ -1,9 +1,8 @@
 ---
 layout: page
 title: template
-description: >
-This is a description for this page
-
+description: 
+    This is a description for this page
 
 ---
 
