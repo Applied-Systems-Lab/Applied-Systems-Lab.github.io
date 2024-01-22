@@ -34,8 +34,8 @@ enable_katex:       true
 # Collections
 # -----------------------------------------------------------------------------
 collections:
-  members:
-    output: true
+  # members:
+  #   output: true
   pages:
     output: true
     permalink: /:path/
