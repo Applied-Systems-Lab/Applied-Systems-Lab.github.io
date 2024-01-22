@@ -1,7 +1,7 @@
 ---
+layout: page
 title: security
 description: 
-layout: default
 
 ---
 

@@ -1,8 +1,7 @@
 ---
+layout: page
 title: networks
 description: 
-layout: default
-category: networks
 
 ---
 
