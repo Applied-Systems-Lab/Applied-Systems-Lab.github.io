@@ -48,7 +48,6 @@ description:
 <hr>
 {% endfor %}
 
----
 
 ## alumni
 {% for alum in alumni %}
@@ -61,7 +60,6 @@ description:
   {% if alum.website %} <i class="fa fa-globe"></i> <a href= "{{alum.website}}" target="_blank">{{alum.website}}</a>  {% endif %}
 </div>
 
-{% endif %}
 {% endfor %}
 
 ---
