@@ -12,7 +12,7 @@ TODO: create this as a link to the different research topics
 
 test again
 
-{% for topic in topics %}
+{% for topic in site.pages %}
 
 ## {{ topic.title }}
 
@@ -22,7 +22,7 @@ test
 
 {% endfor %}
 
-
+{{page.category}}
 
 
 

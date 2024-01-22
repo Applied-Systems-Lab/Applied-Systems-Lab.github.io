@@ -4,8 +4,10 @@
     testing
   </div>
 
+  {% assign posts = site.posts | where_exp: "post", "category == {{page.category}}" %}
 
-  {% for post in paginator.posts %}
+
+  {% for post in posts %}
   <div>
     testing again
   </div>
