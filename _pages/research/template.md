@@ -15,4 +15,4 @@ Here I'm putting extra non-post details (in addition to description)
 
 
 <!-- The following inserts all the associated posts: -->
-{% include category_index.html %}
+{% include category_index.md %}
