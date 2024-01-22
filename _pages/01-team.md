@@ -10,7 +10,7 @@ description:
 
 {% for person in people %}
 
-{% if person.enddate == null %}
+<!-- {% if person.enddate == null %} -->
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 <div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
@@ -43,10 +43,10 @@ description:
         <p class="text-justify">{{person.description | markdownify}}</p>
     </div>
 </div>
-<hr>
+<!-- <hr> -->
 
 
-{% endif %}
+<!-- {% endif %} -->
 
 
 
