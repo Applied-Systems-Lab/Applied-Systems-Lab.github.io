@@ -9,7 +9,7 @@ description:
 
 {% for person in people %}
 
-{% if person.enddate == null %}
+{% if person.enddate == null %} 
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 <div id = "{{person.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px;">
@@ -54,7 +54,7 @@ description:
 ## alumni
 
 {% for alum in people %}
-{% if alum.enddate != null}
+{% if alum.enddate != null %}
 
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 <div id = "{{alum.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px; padding-bottom: 20px;">
