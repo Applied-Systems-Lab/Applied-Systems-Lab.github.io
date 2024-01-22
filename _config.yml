@@ -34,7 +34,7 @@ enable_katex:       true
 # Collections
 # -----------------------------------------------------------------------------
 collections:
-  # members:
+  members:
   #   output: true
   pages:
     output: true
