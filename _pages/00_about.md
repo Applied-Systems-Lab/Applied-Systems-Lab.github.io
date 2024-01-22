@@ -1,6 +1,7 @@
 ---
 layout: about
 permalink: /
+exclude: true
 title: Applied Systems Lab @ UTD
 description: 
 
