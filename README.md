@@ -3,9 +3,6 @@
 Based on the Decisions Lab website: 
 [decisionlabucsf.github.io](https://github.com/decisionlabucsf/decisionlabucsf.github.io) 
 
-
-# Decision Lab website
-
 A quick way for everyone to learn how to use GitHub and Markdown. (Site design 
 based on [al-folio](https://github.com/alshedivat/al-folio).)
 
@@ -72,6 +69,43 @@ In the box below **Commit changes**, instead of "Add files via upload" type in a
 more informative description like "upload `YOUR FILENAME` for members.yml" and 
 click the green button to commit the file directly to the master branch.
 
+### 2. Add a new name.yml to the /_members/ directory based on /_members/_template.yml
+Navigate to [/_members/](https://github.com/Applied-Systems-Lab/Applied-Systems-Lab.github.io/tree/main/_members) and create a new file (Add file in top right).
+1. Name the file: name.yml
+2. Add the information in accordance w/ [/_members/template.yml](https://github.com/Applied-Systems-Lab/Applied-Systems-Lab.github.io/blob/main/_members/_template.yml)
+
+```
+---
+name: template
+degrees: 
+# image: # local image name (only use image or imageurl)
+imageurl: # direct imageurl
+position: # current role/position
+email: # email
+orcid: #XXXX-XXXX-XXXX-XXXX #ORCID, create if you don't have one
+scholar: # find on google scholar
+description: "
+
+Description
+
+" 
+
+startdate: [2022-09-01] # [YYYY-MM-DD] date joining lab
+enddate: #[YYYY-MM-DD] Leave this blank until you leave the lab
+
+#OPTIONAL
+pronouns: #
+website: #Enter your personal/professional website
+twitter: #username
+linkedin: #username
+github: #username
+---
+```
+3. Commit Changes (directly to main) and it should automatically run and update the website.
+
+---
+
+<s>
 ### 2. Edit the team member data in the YAML file /_data/members.yml
 Navigate to [/_data/members.yml](https://github.com/decisionlabucsf/decisionlabucsf.github.io/blob/master/_data/members.yml) 
 and click the pencil for "Edit this file":
@@ -114,7 +148,6 @@ and click the green button to commit the file directly to the master branch.
 After you commit, it might take a minute or two to see these changes reflected 
 in the "team" page, and you might need to refresh your browser. 
 
-<s>
 ## How to update the publication list
 
 For journal articles and reviews: no book chapters, letters to the editor, 
