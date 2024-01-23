@@ -262,6 +262,7 @@ posted a preprint prior to publication; `preregistered: ` allows us to link to
 preregistrations for a paper, and `opendata: ` and `openmaterials: ` allow us to 
 link to repositories where readers can download our data and materials (e.g., if 
 they're interested in reproducing our analyses or our experiments).
+</s>
 
 ## How to add news posts
 For this you will create a Markdown file containing the news post. Navigate to 
@@ -298,4 +299,4 @@ enter the filename of the image you uploaded to
 
 When you're done, **commit changes**, using the green button to commit the file 
 directly to the master branch and the description box below to leave a brief 
-description.</s>
+description.
