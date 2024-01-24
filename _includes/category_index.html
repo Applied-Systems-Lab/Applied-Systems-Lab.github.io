@@ -6,7 +6,8 @@
     {% if item.group == page.title and idx_post <= site.post_limit %}
       {% assign idx_post = idx_post + 1 %}
       <div>
-        <h3><a class="page-link" href="{{ item.path | prepend: site.baseurl | prepend: site.url }}">
+        <h3><a class="page-link" href="{{item.url}}"> 
+          <!-- {{ item.path | prepend: site.baseurl | prepend: site.url }} -->
           {{ item.title }}
         </a></h3> 
         
