@@ -1,15 +1,23 @@
 ---
-title: Tobias Haeusermann wins 2018 Mildred Blaxter New Writer Prize
-author: Winston Chiong
+title: Template Post
+author: #author name
 layout: post
-group: 
+group: security # must match folder location
 image: 
 caption: 
 ---
 
-More happy news for the Decision Lab! [Tobias Haeusermann](/team/index.html#Tobias-Haeusermann) has received the 
+# Template post <--- title already placed thus unnessicary
+## additional sub title
+Standard text that I put here
+
+Here's a link to relative link [networks page](/research/networks/) or [example post](/research/networks/2018-11-07-random-post/).
+
+General web link [Nova website](https://nova-utd.github.io/)
+
+<!-- More happy news for the Decision Lab! [Tobias Haeusermann](/team/index.html#Tobias-Haeusermann) has received the 
 [2018 Mildred Blaxter New Writer Prize](https://onlinelibrary.wiley.com/doi/full/10.1111/1467-9566.12835){:target="_blank"}
 from the editorial board of [*Sociology of Health and Illness*](https://onlinelibrary.wiley.com/journal/14679566){:target="_blank"} 
 for his paper [“Professionalised intimacy: how dementia care workers navigate between domestic intimacy and institutional detachment”](https://onlinelibrary.wiley.com/doi/pdf/10.1111/1467-9566.12730){:target="_blank"}! 
 Toby's paper examines strains in the professional roles of care workers in Germany's first dementia village. Great to see more 
-recognition for this very interesting work!
+recognition for this very interesting work! -->

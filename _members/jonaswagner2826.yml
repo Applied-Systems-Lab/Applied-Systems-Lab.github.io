@@ -5,7 +5,7 @@ degrees: #Include "Ph.D."" if applicable
 imageurl:  https://avatars.githubusercontent.com/u/47377464
 position: Research Assistant # current position
 email: jonas.wagner@utdallas.edu #Enter your preferred public e-mail address
-orcid: 0000-0003-3648-5129 #XXXX-XXXX-XXXX-XXXX #ORCID, create if you don't have one
+orcid: #0000-0003-3648-5129 #XXXX-XXXX-XXXX-XXXX #ORCID, create if you don't have one
 scholar: JGZZulsAAAAJ #Google Scholar User ID, create if you don't have one
 description: "
 Jonas Wagner is currently a Research Assistant and PhD student in the Applied Systems Lab withing the Mechanical Engineering department at The University of Texas at Dallas. 
@@ -25,7 +25,7 @@ startdate: [2020-06-15]
 enddate: #[YYYY-MM-DD] Leave this blank until you leave the lab
 
 #OPTIONAL
-pronouns: #(they/them)
+pronouns: (they/them)
 website: #Enter your personal/professional website
 twitter: #username
 linkedin: jonaswagner2826 #username
