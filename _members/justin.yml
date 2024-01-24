@@ -3,14 +3,16 @@ name: Justin Ruths
 degrees: PhD
 # image: team_Justin-Ruths.jpg
 imageurl: https://nova-utd.github.io/assets/res/headshots/Justin.jpg 
-position: Principle Investigator
+position: Associate Professor
 email: jruths@utdallas.edu
 orcid: #XXXX-XXXX-XXXX-XXXX #ORCID, create if you don't have one
 scholar: bTStxAMAAAAJ
 description: "
 
 Justin Ruths is an associate professor in the departments of Mechanical Engineering and Systems Engineering at UT Dallas. 
-TODO- do the rest of this
+Before that, Justin was an assistant professor and founding faculty member of Engineering Systems Design at the Singapore University of Technology and Design from 2011-2016.
+He enjoys building things and understanding how things work. This has led him to the seemingly incongruous situation of building self-driving cars at work and maintaining a 1978 Chevy truck and 1962 Ford Bronco at home.
+Recently he has been enchanted by the expressiveness of zonotope set-based methods and the beauty of their linear algebra interpretations. Topics of security, networks, system dynamics, and neuroscience continue to be areas of ongoing interest and work.
 
 " 
 
