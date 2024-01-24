@@ -12,10 +12,9 @@
       <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/"><i class="fas fa-home"></i></a>
       
         <!-- About NOVA -->
-      <li><a href="http://nova-utd.github.io" target="_blank" rel="noopener noreferrer">
-        <img src="https://nova-utd.github.io/assets/res/logo.svg" style="height:1em">
-        <!-- <img src="{ https://nova-utd.github.io/assets/res/logo.svg }" style="width:10%"> -->
-      </a></li>
+      <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/">
+        {<img src="https://nova-utd.github.io/assets/res/logo.svg" style="height:1em">}
+      </a>
 
       <!-- Pages -->
       {% for page in site.pages %}
