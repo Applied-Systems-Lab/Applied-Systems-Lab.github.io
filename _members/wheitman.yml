@@ -14,7 +14,7 @@ Description
 " 
 
 startdate: [2022-09-01] # [YYYY-MM-DD] date joining lab
-enddate: #[YYYY-MM-DD] Leave this blank until you leave the lab
+enddate: [2023-06-01] #[YYYY-MM-DD] Leave this blank until you leave the lab
 
 #OPTIONAL
 pronouns: #
