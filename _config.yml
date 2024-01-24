@@ -16,7 +16,7 @@ last_updated: # leave blank if you don't want to display last updated
 
 # Pagination
 # paginate: 4
-# permalink: /:path/
+permalink: /:path/
 
 # text:
 #   pagination:

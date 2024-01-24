@@ -7,7 +7,7 @@ image:
 caption: 
 ---
 
-# Template post <--- title already placed thus unnessicary
+# Template post <--- title already placed thus not needed
 ## additional sub title
 Standard text that I put here
 
