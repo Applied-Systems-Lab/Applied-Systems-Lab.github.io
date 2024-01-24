@@ -8,9 +8,10 @@
       <div>
         <h3><a class="page-link" href="{{item.url}}"> 
           <!-- {{ item.path | prepend: site.baseurl | prepend: site.url }} -->
-          {{ item.title }}
+          {{ item.title }} 
         </a></h3> 
-        
+        <p>url: : {{item.url}}</p>
+        <p>path: {{item.path}}</p>
       </div>
       <div>
         {{ item.content }}
