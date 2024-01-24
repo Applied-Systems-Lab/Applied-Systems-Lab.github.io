@@ -11,10 +11,6 @@
       <!-- About -->
       <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/"><i class="fas fa-home"></i></a>
       
-      <!-- About NOVA -->
-      <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/">
-        <img src="https://nova-utd.github.io/assets/res/logo.svg" style="height:1em">
-      </a>
 
       <!-- Pages -->
       {% for page in site.pages %}
@@ -22,6 +18,12 @@
         <a class="page-link" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a>
         {% endunless %}
       {% endfor %}
+
+      
+      <!-- About NOVA -->
+      <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/">
+        <img src="https://nova-utd.github.io/assets/res/logo.svg" style="height:3em">
+      </a>
 
     </div>
   </nav>
