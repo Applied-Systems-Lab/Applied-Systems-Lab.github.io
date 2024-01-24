@@ -1,0 +1,33 @@
+---
+name: Jonas Wagner 
+degrees: #Include "Ph.D."" if applicable
+# image: /static/img/members/LastName.jpg #365 x 365 pixels, 72 dpi
+imageurl:  https://avatars.githubusercontent.com/u/47377464
+position: Research Assistant # current position
+email: jonas.wagner@utdallas.edu #Enter your preferred public e-mail address
+orcid: 0000-0003-3648-5129 #XXXX-XXXX-XXXX-XXXX #ORCID, create if you don't have one
+scholar: JGZZulsAAAAJ #Google Scholar User ID, create if you don't have one
+description: "
+Jonas Wagner is currently a Research Assistant and PhD student in the Applied Systems Lab withing the Mechanical Engineering department at The University of Texas at Dallas. 
+Perviously, Jonas received their BS in both Engineering Physics and Electrical Engineering from the University of Wisconsin - Platteville (along with a minor in Math).
+
+Jonas enjoys teaching and has 
+
+Jonas' research primarily focuses on 
+In addition, Jonas has continued the Lab's work in ICON to better detect and 
+" # Do we want all third person or first peron? (or a mix)
+
+
+# I'm currently a Research Assistant in the Applied Systems Lab and am pursuing my PhD in Mechanical Engineering at The University of Texas at Dallas.
+# I received my B.S. in both Engineering Physics and Electircal Enjineering from the University of Wisconsin - Platteville (along with a minor in Math).
+
+startdate: [2020-06-15]
+enddate: #[YYYY-MM-DD] Leave this blank until you leave the lab
+
+#OPTIONAL
+pronouns: #(they/them)
+website: #Enter your personal/professional website
+twitter: #username
+linkedin: jonaswagner2826 #username
+github: jonaswagner2826 #username
+---
