@@ -6,7 +6,7 @@
     {% if item.group == page.title and idx_post <= site.post_limit %}
       {% assign idx_post = idx_post + 1 %}
       <div>
-        <h3><a href={{item.permalink}}></a> {{ item.title }}</h3>
+        <h3 href={{item.permalink}}>{{ item.title }}</a></h3>
       </div>
       <div>
         {{ item.content }}
