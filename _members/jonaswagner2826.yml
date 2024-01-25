@@ -7,16 +7,18 @@ position: Research Assistant # current position
 email: jonas.wagner@utdallas.edu #Enter your preferred public e-mail address
 orcid: #0000-0003-3648-5129 #XXXX-XXXX-XXXX-XXXX #ORCID, create if you don't have one
 scholar: JGZZulsAAAAJ #Google Scholar User ID, create if you don't have one
-description: >
+description: "
 Jonas Wagner is currently a Research Assistant and PhD student in the Applied Systems Lab withing the Mechanical Engineering department at The University of Texas at Dallas. 
 Perviously, Jonas received their BS in both Engineering Physics and Electrical Engineering from the University of Wisconsin - Platteville (along with a minor in Math).
-
+\
 Jonas enjoys teaching and is one of the Jonsson School's inaugural Dean's teaching fellows training to be an instructor of record.
 Currently, they also serves as a mentor for UTD's EPICS (the undergraduate design program for local non-profit organizations); continuing the tradition of mentoring for the local FIRST robotics team while in undergrad.
-
+\
 Jonas's research has primarily focused on cyber-physical system security and the development of new set-based detection methods utilizing zonotope-based reachability analysis.
 In addition, Jonas has continued the Applied Systems Lab's work with networks by expanding ICON to detect interconnections within systems with unmeasured states and non-linear dynamics.
-# Do we want all third person or first peron? (or a mix between people?)
+" # Do we want all third person or first peron? (or a mix between people?)
+
+
 # I'm currently a Research Assistant in the Applied Systems Lab and am pursuing my PhD in Mechanical Engineering at The University of Texas at Dallas.
 # I received my B.S. in both Engineering Physics and Electircal Enjineering from the University of Wisconsin - Platteville (along with a minor in Math).
 
