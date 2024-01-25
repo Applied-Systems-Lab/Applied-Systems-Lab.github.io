@@ -4,7 +4,7 @@
 .site-header {
     border-top: 1px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 75px; //56px;
+    min-height: 56px;
 
     // Positioning so hamburger menu stays in front of graphic elements
     z-index: 100;
@@ -45,7 +45,7 @@
 
 .top-banner {
     background: $theme-color; // #052049;
-    height: 100px; // 50px;
+    height: 75px; // 50px;
     font-size: 25px;//14px;
     text-align: center;
     width: 100%;
