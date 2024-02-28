@@ -55,8 +55,7 @@ description:
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 <div id = "{{alum.name | replace: ' ', '-'}}" class="row" style="padding-top: 60px; margin-top: -60px; padding-bottom: 20px;">
   <strong>{{alum.name}}{% if alum.degrees %}, {{alum.degrees}} {% endif %}</strong> <br>
-  <!-- <i>previously:</i> {{alum.previously}} <br> -->
-  {% if alumn.position %} <i>Current Position:</i> {{alum.position}}<br> {% endif %}
+  {% if alumn.position %} <i>Current Position:</i> {{alum.position}} <br> {% endif %}
   {% if alum.website %} <i class="fa fa-globe"></i> <a href= "{{alum.website}}" target="_blank">{{alum.website}}</a>  {% endif %}
 </div>
 
